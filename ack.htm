@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.ACK.com</title>
+<style>
+#header {
+	background-image: url("deploy.jpg");*/
+	/*background-color: #0000ff;*/
+	color:black;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 30px;
+	font-family: Samanata;
+	padding: 30px;
+	text-shadow: 2px 2px 2px red;
+}
+#nav {
+	line-height: 40px;
+	background-color:black;
+	float:left;
+	height: 500px;
+	margin-left: 0px;
+	list-style-type: none;
+}
+#section {
+	background-image: url("st.jpg");
+	color: white;
+	text-align: center;
+	padding: 100px;
+	height: 440px;
+}
+#footer {
+	background-image: url("glas.jpg");
+	color:white;
+	clear: both;
+	text-align: center;
+	padding: 70px;
+}
+#nav ul{
+	color: white;
+}
+#nav li {
+text-decoration: none;
+background-color: red;
+display: block;
+margin:10px;
+padding-bottom: 15px;
+}
+
+#nav a li:link{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	list-style-type: none;
+}
+#nav a li:hover{
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
+#nav a li:visited{
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+#nav a li:active{
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+}
+table, tr, td {
+	border:1px;
+	float: right;
+}
+#header table tr td img {
+	border-radius: 100%;
+	-moz-transform:rotateY(140deg);
+	transform: rotateY(140deg);
+}
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+	<div id="header">
+	    <h1>ST PAUL A.C.K CHURCH</h1>
+	    <table>
+	    	<tr>
+	    		<td><img src="dove.jpeg" height="150" width="150"></td>
+	    	</tr>
+	    </table>
+	</div>
+   
+    <div id="nav">
+    	<ul>
+    	<a href="activities.htm" target="_self"><li><i><b>Activities</b></i></li></a>
+    	<a href="prog.htm"><li><i><b>Programs</b></i></li></a>
+    	<a href="dep.html"><li><i><b>Depertments</b></i></li></li></a>
+    	<a href="tithe.html"><li><i><b>Tithe</i></b></li></a>
+    	<a href="news.htm"><li><i><b>News</b></i></li></a>
+    	<a href="gallery.htm"><li><i><b>Gallery</b></i></li></a>
+    	<a href="date.htm"><li><i><b>Date & Time</b></i></li></a>
+    	</ul>
+    </div>
+
+    <div id="section">
+    	<p><b>This church was esterblished in the early 30s by the britains.Over the years more christians have join to fellowship with us.The church one many other anglican churches in KENYA.</b></p>
+    	<!--<div class="w3-content w3-section" style="max-width: 500px; float: right;">
+    		<img class="mySlides" src="li.jpg" style="width: 100%">
+    		<img class="mySlides" src="dol.jpg" style="width: 100%">
+    		<img class="mySlides" src="blue.jpg" style="width: 100%">
+    		<img class="mySlides" src="sun.jpg" style="width: 100%">
+    	</div>-->
+    	<script>
+    		var myIndex = 0;
+    		carousel();
+
+    		function carousel() {
+    			var i;
+    			var x = document.getElementsByClassName("mySlides");
+    			for (i = 0; i < x.length; i++)
+    			{
+    				x[i].style.display = "none";
+    			}
+    			myIndex++;
+    			if (myIndex > x.length)
+    			{
+    				myIndex=1
+    			}
+    			x[myIndex-1].style.display = "block";
+    			setTimeout(carousel, 5000);
+    		}
+    	</script>
+    </div>
+
+    <div id="footer">
+    	<b>IN GOD WE TRUST</b><br>
+    	<b>ack@yahoo.com</b><br>
+    	<b>0700000000</b>
+<!--<script>
+	console.log(6 + 6);
+</script>-->
+</iframes>
+</body>
+</html>
