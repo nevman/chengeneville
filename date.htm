@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style>
+		
+	</style>
+	<header>Date & Time</header>
+	<table>
+		<tr>
+			<td>
+				<script>
+				import time
+
+					localtime=time.localtime(time.time())
+					print("Local time is:",localtime)
+
+					localtime=time.asctime(time.localtime(time.time()))
+					print("Localtime is:",localtime)
+
+
+					import calendar
+
+					cal=calendar.month(2018,3)
+					print("Here is the calenar:")
+					print(cal)
+				</script>	
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
