@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>program</title>
+	<style>
+		#header {
+			background-image: url("splash.jpg");
+			padding: 30px;
+			text-align: center;
+		}
+
+		#section {
+			background-image: url("arch.jpg");
+			padding: 100px;
+			height: 600px;
+			text-align: center;
+		}
+		form, input {
+			text-decoration-color: white;
+			float:right;
+			color: black;
+		}
+		table,tr,th {
+			border:2px solid white;
+			background-color: blue;
+			color: black;
+		}
+		table{
+			border-spacing: 15px;
+		}
+		table, tr,td {
+			border:2px solid white;
+			background-image: url("gray.jpeg");
+			color: blue;
+		}
+		ol {
+			list-style-type: square;
+			background-color: #cce5ff;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>welcome to our program</h1>
+		<form action="">
+			<b>Search Program:</b>
+			<input type="search" name="search">
+		</form>
+	</div>
+
+	<div id="section">
+		<table>
+			<tr>
+				<th><marquee>SUNDAY</marquee></th>
+				<th><marquee>TUESDAY</marquee></th>
+				<th><marquee>WEDNESDAY</marquee></th>
+				<th><marquee>THURSDAY</marquee></th>
+				<th><marquee>FRIDAY</marquee></th>
+				<th><marquee>SATURDAY</marquee></th>
+			</tr>
+			<tr>
+				<td width="250" height="420">
+					<ol class="a">
+						<li id="one"><b>Morning Glory<br><i>"Arrise and shine<br>for the glory of God<br>is whith you"</li>
+						<li id="two"><b>English Survice<br><i>"This is the day that the Lord has made,let us be glad and rejoys in it"</li>
+						<li id="three"><b>Kiswahili Survice<br><i>"Mungu ni pendo,apenda watu.Sikizeni furaha yangu"</li>
+						<p>
+							<button type="button" onclick="myFunction()">Next</button>
+						</p>
+					</ol>
+				</td>
+				<td width="250" height="420">
+					<ol class="b">
+						<li id="one"><b>Morning Glory<br><i>"Arrise and shine<br>for the glory of God<br>is whith you"</li>
+						<li id="two"><b>English Survice<br><i>"This is the day that the Lord has made,let us be glad and rejoys in it"</li>
+						<li id="three"><b>Kiswahili Survice<br><i>"Mungu ni pendo,apenda watu.Sikizeni furaha yangu"</li>
+						<p>
+							<button type="button" onclick="myFunction()">Next</button>
+						</p>
+					</ol>
+				</td>
+				<td width="250" height="420">
+					<ol class="c">
+						<li id="one"><b>Morning Glory<br><i>"Arrise and shine<br>for the glory of God<br>is whith you"</li>
+						<li id="two"><b>English Survice<br><i>"This is the day that the Lord has made,let us be glad and rejoys in it"</li>
+						<li id="three"><b>Kiswahili Survice<br><i>"Mungu ni pendo,apenda watu.Sikizeni furaha yangu"</li>
+						<p>
+							<button type="button" onclick="myFunction()">Next</button>
+						</p>
+					</ol>
+				</td>
+				<td width="250" height="420">
+					<ol class="d">
+						<li id="one"><b>Morning Glory<br><i>"Arrise and shine<br>for the glory of God<br>is whith you"</li>
+						<li id="two"><b>English Survice<br><i>"This is the day that the Lord has made,let us be glad and rejoys in it"</li>
+						<li id="three"><b>Kiswahili Survice<br><i>"Mungu ni pendo,apenda watu.Sikizeni furaha yangu"</li>
+						<p>
+							<button type="button" onclick="myFunction()">Next</button>
+						</p>
+					</ol>
+				</td>
+				<td width="250" height="420">
+					<ol class="e">
+						<li id="one"><b>Morning Glory<br><i>"Arrise and shine<br>for the glory of God<br>is whith you"</li>
+						<li id="two"><b>English Survice<br><i>"This is the day that the Lord has made,let us be glad and rejoys in it"</li>
+						<li id="three"><b>Kiswahili Survice<br><i>"Mungu ni pendo,apenda watu.Sikizeni furaha yangu"</li>
+						<p>
+							<button type="button" onclick="myFunction()">Next</button>
+						</p>
+					</ol>
+				</td>
+				<td width="250" height="420">
+					<ol class="f">
+						<li id="one"><b>Morning Glory<br><i>"Arrise and shine<br>for the glory of God<br>is whith you"</li>
+						<li id="two"><b>English Survice<br><i>"This is the day that the Lord has made,let us be glad and rejoys in it"</li>
+						<li id="three"><b>Kiswahili Survice<br><i>"Mungu ni pendo,apenda watu.Sikizeni furaha yangu"</li>
+						<p>
+							<button type="button" onclick="myFunction()">Next</button>
+						</p>
+					</ol>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<script>
+		function myFunction() {
+			document.getElementById("one").innerHTML = "The morning Glory starts at exactly 7am to 8:30am.";
+
+			document.getElementById("two").innerHTML ="The English survice comence at 9:00am to 10:30am.";
+
+			document.getElementById("three").innerHTML ="The Kiswahili survice kicks from 11:00am ending at 12:30pm.";
+		}
+	</script>
+</body>
+</html>
